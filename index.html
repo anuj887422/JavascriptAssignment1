@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <title>index</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1> RD  PORTAL</h1>
+    <p>
+      <b>REPORTS</b>
+    </p>
+    <p>
+      <b>ADMIN</b>
+    </p>
+    <p>
+      <b>HELP</b>
+    </p>
+    <p class="rightSide">
+      Welcome to RAJA
+    </p>
+    <img src="blank.png" width=40px height=40px alt="">
+  </header>
+  <main>
+    <div class="top">
+      <h1>User Creation</h1>
+    </div>
+    <form action="" name="myForm" onsubmit="return validateForm()">
+      <div class="left">
+        <label for="email">Email</label>
+        <br>
+        <input type="email" required>
+        <label for="lastName">LastName</label>
+        <input type="text" required>
+        <br>
+        <button type="submit">Create</button>
+        <p>
+          <a href="">Back to List</a>
+        </p>
+      </div>
+      <div class="mid">
+        <label for="roleId">RoleId</label>
+        <br>
+        <select id="" name="role">
+          <option value="default">Select a Role</option>
+          <option value="developer">Developer</option>
+          <option value="tester">Tester</option>
+        </select>
+        <br>
+        <label for="gender">GenderId</label>
+        <br>
+        <select name="gender" id="" required>
+          <option value="default">Select a Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div class="right">
+        <label for="firstName">FirstName</label>
+        <br>
+        <input type="text" required>
+        <label for="contactNumber">ContactNumber</label>
+        <br>
+        <input type="text" name="contactNumber" required minlength="10" maxlength="10">
+      </div>
+    </form>
+  </main>
+  <footer>
+    <b>RD-Pre Education version: 7.1.026, Node2</b>
+    <span class="help">
+      <b>HELP</b>
+    </span>
+  </footer>
+</body>
+
+</html>

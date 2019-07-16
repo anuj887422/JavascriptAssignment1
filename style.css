@@ -1,0 +1,95 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: rgb(63, 63, 63);
+  color:aliceblue;
+  display: flex;
+  /* align-content: center; */
+}
+header h1{
+  font-size: 2rem;
+  padding-left:50px;
+  padding-right: 30px;
+}
+header p{
+  padding-top: 15px;
+  padding-left: 20px;
+
+}
+main{
+  padding-left: 10%;
+  width: 80%;
+  /* color: rgb(88, 88, 88); */
+}
+.top{
+  border-bottom: 2px solid rgb(131, 131, 131);
+}
+form{
+  display: flex;
+}
+.left{
+  width:33.33%;
+  padding-top: 50px;
+}
+.mid{
+  width:33.33%;
+  padding-top: 50px;
+}
+.right{
+  width:33.33%;
+  padding-top: 50px;
+}
+input{
+  width:80%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+select{
+  width: 80%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+footer{
+  height:50px;
+  background-color: rgb(63, 63, 63);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  color: rgb(180, 180, 180);
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.form > label,input,select{
+margin: 15px 0;
+}
+label{
+  font-weight: bold;
+}
+button{
+  padding: 10px;
+  color: white;
+  background-color: rgb(19, 148, 19);
+  border: 1px solid green;
+}
+.rightSide{
+  right: 0;
+  float: right;
+  padding-top: 15px;
+}
+header .rightSide{
+  display: flex;
+  padding-left: 500px;
+}
+header img{
+  padding-left: 50px;
+  padding-top: 20px;
+  
+}
+.help{
+  padding-left: 800px;
+}
